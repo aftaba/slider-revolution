@@ -5392,11 +5392,6 @@ class RevSliderOutput {
 					$urlIncludeJS = RS_PLUGIN_URL.'public/assets/js/jquery.themepunch.enablelog.js?rev='. $slver;
 					$htmlBeforeSlider .= '<script type="text/javascript" src="'.$urlIncludeJS.'"></script>';
 				}
-
-				$urlIncludeJS = RS_PLUGIN_URL.'public/assets/js/jquery.themepunch.tools.min.js?rev='. $slver;
-				$htmlBeforeSlider .= '<script type="text/javascript" src="'.$urlIncludeJS.'"></script>';
-				$urlIncludeJS = RS_PLUGIN_URL.'public/assets/js/jquery.themepunch.revolution.min.js?rev='. $slver;
-				$htmlBeforeSlider .= '<script type="text/javascript" src="'.$urlIncludeJS.'"></script>';
 				
 				if($markup_export === true){
 					$htmlBeforeSlider .= '<!-- /SCRIPTINCLUDE -->';
